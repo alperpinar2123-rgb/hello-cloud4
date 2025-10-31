@@ -5,7 +5,7 @@ import psycopg2
 app = Flask(__name__)
 
 # Veritabanı bağlantı adresi (örnek: postgres://user:pass@host:port/dbname)
-DATABASE_URL = os.getenv("DATABASE_URL", "")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://hello_kloud2_db_user:UxLdeEE4UxcNel2MieU1ZPlQ3NcexdXf@dpg-d3tjheggjchc73fan2ng-a.oregon-postgres.render.com/hello_kloud2_db")
 
 # HTML Şablonu
 HTML = """
